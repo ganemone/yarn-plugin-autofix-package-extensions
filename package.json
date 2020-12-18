@@ -6,5 +6,13 @@
   },
   "workspaces": [
     "./autofix-package-extensions"
-  ]
+  ],
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    },
+    "webpack-cli": {
+      "optional": true
+    }
+  }
 }
